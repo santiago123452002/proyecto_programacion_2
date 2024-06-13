@@ -1,3 +1,6 @@
+Proyecto realizado por Juan David Vargaz 
+
+                       Santiago Muñoz Suarez
 # proyecto_programacion-2
 Clase:clientupdate
 
