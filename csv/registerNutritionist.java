@@ -33,10 +33,13 @@ public class registerNutritionist {
 
         Dietitian p;
 
-        do{
-            System.out.println("Codigo: ");
-            dietitianId= sc.nextLine();
-            if(!dietitianId.equalsIgnoreCase("fin")){
+          do{
+            System.out.println("Desea registar un nutricionista... (si/no)");
+            opc = sc.nextLine();
+           
+            if(!opc.equalsIgnoreCase("no")){
+                System.out.println("Codigo: ");
+                dietitianId= sc.nextLine();
 
                 System.out.println("Nombre completo ");
                 name= sc.nextLine();
@@ -48,11 +51,10 @@ public class registerNutritionist {
                 al.add(p);
             }
 
-        }while (!dietitianId.equalsIgnoreCase("fin"));
+        }while (!opc.equalsIgnoreCase("no"));
         return al;
     }
     
   
 }
-
 
