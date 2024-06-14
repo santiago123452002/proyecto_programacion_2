@@ -30,7 +30,7 @@ public class Main{
                 
 
                 if (opciones==1) {
-                    Console.writeLine("va agregar un usuario");
+                    Console.writeLine("Va agregar un usuario");
                     patientRegisterCsv.main(args);
                     
                 }
@@ -57,7 +57,7 @@ public class Main{
                   opciones = Integer.parseInt(Console.readLine());
 
                   if (opciones==1) {
-                    Console.writeLine("va agregar un usuario");
+                    Console.writeLine("Va agregar un usuario");
                     registerNutritionist.main(args);
                     
                 }
